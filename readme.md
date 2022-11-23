@@ -11,6 +11,9 @@ Cross margin resource sharing CORS dice al navegador cuándo le está permitido 
 Seguir las instrucciones en el video de presentación en la tienda de Chrome.
 
 2) Abrir un Terminal de línea de comandos en la carpeta E02-Users-Back:
+
+e02-users-back> npm install express
+e02-users-back> npm install -D nodemon
 e02-users-back> npm run dev
 
         > e02-users-back@1.0.0 dev
@@ -24,6 +27,11 @@ e02-users-back> npm run dev
 
 
 3) Abrir otra Terminal de línea de comandos en la carpeta E02-Users-Front:
+
+e02-users-front> npm install
+e02-users-front> npm install axios
+e02-users-front> npm i react-hook-form
+
 e02-users-front> npm run dev
 
         > e02-users-front@0.0.0 dev
@@ -34,3 +42,5 @@ e02-users-front> npm run dev
           ➜  Network: use --host to expose
 
 4) Abrir la interfaz Front Endo con usando Ctrl+[Click] sobre el URL Local.
+
+
